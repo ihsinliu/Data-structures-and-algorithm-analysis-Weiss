@@ -7,7 +7,6 @@
 
 #ifdef CubicAlgorithm
 
-/* START: fig2_5.txt */
         int
         MaxSubsequenceSum( const int A[ ], int N )
         {
@@ -33,7 +32,6 @@
 
 #ifdef QuadraticAlgorithm
 
-/* START: fig2_6.txt */
         int
         MaxSubsequenceSum( const int A[ ], int N )
         {
@@ -69,7 +67,7 @@
             return A > B ? A > C ? A : C : B > C ? B : C;
         }
 
-/* START: fig2_7.txt */
+
         static int
         MaxSubSum( const int A[ ], int Left, int Right )
         {
@@ -120,7 +118,7 @@
 
 
 #ifdef LinearAlgorithm
-/* START: fig2_8.txt */
+
         int
         MaxSubsequenceSum( const int A[ ], int N )
         {
@@ -143,7 +141,7 @@
 
 #endif
 
-main( )
+int main( )
 {
     static int A[ ] = { 4, -3, 5, -2, -1, 2, 6, -2 };
 
