@@ -3,6 +3,14 @@
 /* Define one of CubicAlgorithm, QuadraticAlgorithm, NlogNAlgorithm,
  * or LinearAlgorithm to get one algorithm compiled */
 
+/*
+
+Includes 4 performing of the max subsequence sum problem,the first and the second are 2 basic ones(time complexity O(N^3),O(N^2),respectively)
+The third is implemented recursively(O(NlogN)).The forth fragment is the fastest and clearest solution of this problem,
+which time complexity is O(N),it only execute one time iteration of input data.The fourth algorithms is also called LINEAR.
+
+*/
+
 #define NlogNAlgorithm
 
 #ifdef CubicAlgorithm
