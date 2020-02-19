@@ -1,8 +1,5 @@
 #include <stdio.h>
-
-/* START: fig2_10.txt */
-        unsigned int
-        Gcd( unsigned int M, unsigned int N )
+unsigned int Gcd( unsigned int M, unsigned int N )
         {
             unsigned int Rem;
 
@@ -16,9 +13,10 @@
         }
 /* END */
 
-main( )
+int main( )
 {
     printf( "Gcd( 45, 35 ) = %d\n", Gcd( 45, 35 ) );
     printf( "Gcd( 1989, 1590 ) = %d\n", Gcd( 1989, 1590 ) );
+        
     return 0;
 }
